@@ -17,11 +17,13 @@ const ProductDetails = ({product, products}) => {
         <div className='product-detail-container'>
             <div>
                 <div className='image-container'>
-                    <img className='product-detail-image' src={urlFor(image && image[index])}/>
+                    <img className='product-detail-image' src={urlFor(image && image[index])}alt=""/>
                 </div>
                 <div className='small-images-container'>
                     {image?.map((item, i) => (
-                        <img className={i === index ? 'small-image selected-image' : 'small-image'}  src={urlFor(item)} onMouseEnter={()=> setIndex(i)}/>
+                        <div item={item} key={i}>
+                        <img className={i === index ? 'small-image selected-image' : 'small-image'}  src={urlFor(item)} onMouseEnter={()=> setIndex(i)} alt=""/>
+                        </div>
                     ))}
                 </div>
             </div>
