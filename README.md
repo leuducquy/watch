@@ -1,16 +1,15 @@
 # POCKETWATCH
 ![Screenshot (11)](https://user-images.githubusercontent.com/86233810/170393974-5dc68748-b069-4828-8197-ae289f4e9d7e.png)
 # App Features
-• Login/Signup
-• User/Admin dashboard(sanity-io)
-• CRUD Products and Categories
-• Product page with related products
-• Shopping cart
+- Login/Signup
+- User/Admin dashboard(sanity-io)
+- CRUD Products and Categories
+- Product page with related products
+- Shopping cart
 
 
 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
