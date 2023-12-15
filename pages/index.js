@@ -2,7 +2,7 @@ import React from 'react'
 import {Product, FooterBanner, HeroBanner} from '../components/index';
 import { client } from '../lib/client';
 
-
+import SocialButton from '../components/SocialButton'
 
 
 const Home = ({products, bannerData}) => {
@@ -20,7 +20,9 @@ const Home = ({products, bannerData}) => {
     </div>
 
     <FooterBanner FooterBanner={bannerData.length && bannerData[0]}/>
-
+    {/* <div class="fixed top-40 left-0 ">
+            <SocialButton />
+          </div> */}
     </div>
   )
 }
